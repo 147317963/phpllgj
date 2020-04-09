@@ -1,6 +1,6 @@
 <?php
 
-namespace app\controller;
+namespace app\controller\v1;
 
 
 use app\BaseController;
@@ -28,7 +28,7 @@ class Base extends BaseController
     {
 //        //redis缓存
 //        $this->redis = Cache::store('redis')->handler();
-        //获取执行时间
+        //获取执行时间1
 //        $this->nowTime = time();
 //
 //        //读取网站配置

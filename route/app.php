@@ -16,10 +16,8 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
-Route::group('', function () {
-    Route::get('/getOdds','/Odds/getOdds');
-})->allowCrossDomain(['Access-Control-Allow-Origin'=>'http://127.0.0.7','Access-Control-Allow-Credentials'=>'true']);
+
+Route::get(':version/odds',':version.odds/index');
 
 
-
-Route::get('/DeleteOdds', '/DeleteCache/deleteOdds'); //删除赔率缓存
+Route::get(':version/history',':version.history/index');

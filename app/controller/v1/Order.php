@@ -1,7 +1,7 @@
 <?php
 
 
-namespace app\controller;
+namespace app\controller\v1;
 
 
 class Order extends Base
