@@ -8,6 +8,9 @@ return [
     'opencode'=>[
         'name'=>'opencode_',
         'expire'=> 60,
-    ]
-
+    ],
+    'action'=>[
+    'name'=>'action_',
+    'expire'=> 60,
+]
 ];

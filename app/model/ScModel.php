@@ -6,7 +6,7 @@ namespace app\model;
 
 use think\Model;
 
-class Sc extends Model
+class ScModel extends Model
 {
     protected $name = 'Sc_auto';
 }

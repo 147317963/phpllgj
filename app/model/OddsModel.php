@@ -3,7 +3,7 @@ namespace app\model;
 
 use think\Model;
 
-class Odds extends Model
+class OddsModel extends Model
 {
     protected $name = 'Odds';
 }

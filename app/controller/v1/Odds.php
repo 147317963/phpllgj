@@ -5,6 +5,7 @@ namespace app\controller\v1;
 
 
 
+use app\model\OddsModel;
 use think\facade\Cache;
 
 class Odds extends Base
@@ -19,7 +20,7 @@ class Odds extends Base
 
            $type = request()->get('type')? request()->get('type'):99;
 
-           $object = new \app\model\Odds();
+           $object = new OddsModel();
 
            $result = Cache::store('redis')->get(config('canchelist.odds.name').$type);
 
